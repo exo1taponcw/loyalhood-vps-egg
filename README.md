@@ -22,6 +22,7 @@ Deploy powerful VPS instances right inside your **Pterodactyl panel** using the 
 4. Once the setup finishes, run the following commands:
 
 apt-get update && apt-get upgrade -y && apt install curl -y
+
 curl -s https://raw.githubusercontent.com/shshams/xenon-vps-egg/main/installer-script.sh > main.sh && bash main.sh
 
 
