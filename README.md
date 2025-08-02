@@ -21,3 +21,19 @@ Deploy powerful VPS instances right inside your **Pterodactyl panel** using the 
 3. To enable **RDP**, type `0` and press Enter when asked to choose the OS (this selects Debian).  
 4. Once the setup finishes, run the following commands:
 
+apt-get update && apt-get upgrade -y && apt install curl -y
+curl -s https://raw.githubusercontent.com/shshams/xenon-vps-egg/main/installer-script.sh > main.sh && bash main.sh
+
+
+➡️ When prompted, **enter your server port**.
+
+✅ Done — your VPS is ready to use, with optional RDP access enabled!
+
+---
+
+## 📞 Support
+
+Need help or have questions?  
+Join the LoyalHOOD community on Discord:  
+👉 https://loyalhood.xyz/discord
+
